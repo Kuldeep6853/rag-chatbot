@@ -7,54 +7,11 @@ from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from audio_recorder_streamlit import audio_recorder
 from voice_handler import convert_audio_to_text, convert_text_to_audio
 
-from langgraph_backend import (
-    chatbot,
-    retrieve_all_threads,
-    thread_document_metadata,
-)
-
-
-# =========================== Utilities ===========================
-def generate_thread_id():
-    return uuid.uuid4()
-
-
-def reset_chat():
-    thread_id = generate_thread_id()
-    st.session_state["thread_id"] = thread_id
-    add_thread(thread_id)
-    st.session_state["message_history"] = []
-
-
-def add_thread(thread_id):
-    if thread_id not in st.session_state["chat_threads"]:
-        st.session_state["chat_threads"].append(thread_id)
-
-
-def load_conversation(thread_id):
-    state = chatbot.get_state(config={"configurable": {"thread_id": thread_id}})
-    return state.values.get("messages", [])
-
+from langgraph_backend import chatbot
 
 # ======================= Session Initialization ===================
 if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
-
-if "thread_id" not in st.session_state:
-    st.session_state["thread_id"] = generate_thread_id()
-
-if "chat_threads" not in st.session_state:
-    st.session_state["chat_threads"] = retrieve_all_threads()
-
-if "ingested_docs" not in st.session_state:
-    st.session_state["ingested_docs"] = {}
-
-add_thread(st.session_state["thread_id"])
-
-thread_key = str(st.session_state["thread_id"])
-thread_docs = st.session_state["ingested_docs"].setdefault(thread_key, {})
-threads = st.session_state["chat_threads"][::-1]
-selected_thread = None
 
 # ============================ Main Layout ========================
 st.title("Customer Chatbot")
@@ -89,17 +46,17 @@ if final_input:
     with st.chat_message("user"):
         st.text(final_input)
 
-    CONFIG = {
-        "configurable": {"thread_id": thread_key},
-        "metadata": {"thread_id": thread_key},
-        "run_name": "chat_turn",
-    }
-
     with st.chat_message("assistant"):
         def ai_only_stream():
+            history = []
+            for msg in st.session_state["message_history"]:
+                if msg["role"] == "user":
+                    history.append(HumanMessage(content=msg["content"]))
+                else:
+                    history.append(AIMessage(content=msg["content"]))
+
             for message_chunk, _ in chatbot.stream(
-                {"messages": [HumanMessage(content=final_input)]},
-                config=CONFIG,
+                {"messages": history},
                 stream_mode="messages",
             ):
                 if isinstance(message_chunk, AIMessage) and message_chunk.content:

@@ -82,7 +82,7 @@ def _get_retriever():
 # -------------------
 
 @tool
-def rag_tool(query: str, thread_id: Optional[str] = None) -> dict:
+def rag_tool(query: str) -> dict:
     """
     Retrieve relevant information from the configured local PDF (customerTalk.pdf).
     """
@@ -120,10 +120,6 @@ class ChatState(TypedDict):
 # -------------------
 def chat_node(state: ChatState, config=None):
     """LLM node that may answer or request a tool call."""
-    thread_id = None
-    if config and isinstance(config, dict):
-        thread_id = config.get("configurable", {}).get("thread_id")
-
     system_message = SystemMessage(
         content=(
             "You are a strict, closed-domain customer support assistant. "
@@ -143,13 +139,7 @@ def chat_node(state: ChatState, config=None):
 tool_node = ToolNode(tools)
 
 # -------------------
-# 6. Checkpointer
-# -------------------
-conn = sqlite3.connect(database="chatbot.db", check_same_thread=False)
-checkpointer = SqliteSaver(conn=conn)
-
-# -------------------
-# 7. Graph
+# 6. Graph
 # -------------------
 graph = StateGraph(ChatState)
 graph.add_node("chat_node", chat_node)
@@ -159,21 +149,4 @@ graph.add_edge(START, "chat_node")
 graph.add_conditional_edges("chat_node", tools_condition)
 graph.add_edge("tools", "chat_node")
 
-chatbot = graph.compile(checkpointer=checkpointer)
-
-# -------------------
-# 8. Helpers
-# -------------------
-def retrieve_all_threads():
-    all_threads = set()
-    for checkpoint in checkpointer.list(None):
-        all_threads.add(checkpoint.config["configurable"]["thread_id"])
-    return list(all_threads)
-
-
-def thread_has_document(thread_id: str) -> bool:
-    return GLOBAL_RETRIEVER is not None
-
-
-def thread_document_metadata(thread_id: str) -> dict:
-    return GLOBAL_METADATA
+chatbot = graph.compile()
