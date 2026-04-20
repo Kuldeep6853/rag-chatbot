@@ -1,21 +1,21 @@
 # Build Frameworks & UI
-streamlit
-python-dotenv
+streamlit==1.52.2
+python-dotenv==1.2.1
 
 # LangGraph & Generative AI Backend
-langchain-core
-langchain-community
-langchain-text-splitters
-langchain-google-genai
-langgraph
+langchain-core==1.2.5
+langchain-community==0.4.1
+langchain-text-splitters==1.1.0
+langchain-google-genai==3.2.0
+langgraph==1.0.4
 
 # Vector Storage & PDF Parsing
-faiss-cpu
-pypdf
+faiss-cpu==1.13.2
+pypdf==6.5.0
+sentence-transformers==5.2.0
 
 # Voice Processing Pipeline
-audio-recorder-streamlit
-SpeechRecognition
-gTTS
-langdetect
-sentence-transformers
+audio-recorder-streamlit==0.0.10
+SpeechRecognition==3.16.0
+gTTS==2.5.4
+langdetect==1.0.9
