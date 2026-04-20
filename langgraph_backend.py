@@ -13,7 +13,6 @@ from langchain_core.messages import BaseMessage, SystemMessage
 from langchain_core.tools import tool
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph import START, StateGraph
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
