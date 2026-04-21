@@ -11,9 +11,9 @@ langchain-text-splitters
 langchain-google-genai
 
 # Vector DB + PDF
-faiss-cpu==1.7.4
-pypdf==4.2.0
-sentence-transformers==2.6.1
+faiss-cpu
+pypdf
+sentence-transformers
 
 # Voice Features
 audio-recorder-streamlit==0.0.10
