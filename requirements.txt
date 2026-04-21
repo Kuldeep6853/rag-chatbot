@@ -1,18 +1,21 @@
+# Build Frameworks & UI
 streamlit==1.52.2
 python-dotenv==1.0.1
 
+# LangGraph + LangChain (COMPATIBLE SET)
 langgraph==0.0.40
 langchain==0.1.16
-langchain-core==0.1.42
+langchain-core==0.1.46
 langchain-community==0.0.29
 langchain-text-splitters==0.0.1
-
 langchain-google-genai==1.0.5
 
+# Vector DB + PDF
 faiss-cpu==1.7.4
 pypdf==4.2.0
 sentence-transformers==2.6.1
 
+# Voice Features
 audio-recorder-streamlit==0.0.10
 SpeechRecognition==3.10.0
 gTTS==2.5.1
