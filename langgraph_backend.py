@@ -5,13 +5,14 @@ import tempfile
 from typing import Annotated, Any, Dict, Optional, TypedDict
 
 from dotenv import load_dotenv
+import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
+from langchain_core.documents import Document
 from langchain_core.messages import BaseMessage, SystemMessage
 from langchain_core.tools import tool
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_huggingface import HuggingFaceEmbeddings
 from langgraph.graph import START, StateGraph
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
@@ -21,16 +22,18 @@ load_dotenv()
 # -------------------
 # 1. LLM + embeddings
 # -------------------
-llm = ChatGoogleGenerativeAI(
-    model="models/gemini-2.5-flash",
-    temperature=0.2,
-    streaming=True,
-    google_api_key=os.getenv("GOOGLE_API_KEY"),
+hf_endpoint = HuggingFaceEndpoint(
+    repo_id="Qwen/Qwen2.5-72B-Instruct",
+    task="text-generation",
+    max_new_tokens=2048,
+    do_sample=False,
+    repetition_penalty=1.03,
 )
+llm = ChatHuggingFace(llm=hf_endpoint)
 
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 # -------------------
 # 2. PDF retriever store (Global)
@@ -44,12 +47,14 @@ def _init_global_retriever():
     if GLOBAL_RETRIEVER is not None:
         return
         
-    pdf_path = "customerTalk.pdf"
-    if not os.path.exists(pdf_path):
-        raise FileNotFoundError(f"{pdf_path} not found in the directory.")
+    json_path = "framerScheme.json"
+    if not os.path.exists(json_path):
+        raise FileNotFoundError(f"{json_path} not found in the directory.")
         
-    loader = PyPDFLoader(pdf_path)
-    docs = loader.load()
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    docs = [Document(page_content=json.dumps(item, ensure_ascii=False)) for item in data]
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000, chunk_overlap=200, separators=["\n\n", "\n", " ", ""]
@@ -62,7 +67,7 @@ def _init_global_retriever():
     )
     
     GLOBAL_METADATA = {
-        "filename": "customerTalk.pdf",
+        "filename": "framerScheme.json",
         "documents": len(docs),
         "chunks": len(chunks),
     }
@@ -84,12 +89,12 @@ def _get_retriever():
 @tool
 def rag_tool(query: str) -> dict:
     """
-    Retrieve relevant information from the configured local PDF (customerTalk.pdf).
+    Retrieve relevant information from the configured local JSON (framerScheme.json).
     """
     retriever = _get_retriever()
     if retriever is None:
         return {
-            "error": "The file customerTalk.pdf is missing from the server.",
+            "error": "The file framerScheme.json is missing from the server.",
             "query": query,
         }
 

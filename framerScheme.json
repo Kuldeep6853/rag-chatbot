@@ -1,0 +1,1245 @@
+[
+    {
+        "scheme_name": "Revised Kisan Credit Card (KCC) Scheme",
+        "source": "Vikaspedia - Agriculture",
+        "objectives": [
+            "Short term credit for cultivation of crops",
+            "Post harvest expenses",
+            "Produce marketing loan",
+            "Consumption requirements of farmer household",
+            "Working capital for maintenance of farm assets and allied activities",
+            "Investment credit for agriculture and allied activities"
+        ],
+        "eligibility": {
+            "categories": [
+                "Owner cultivators (Individual/Joint)",
+                "Tenant farmers",
+                "Oral lessees",
+                "Share croppers",
+                "Self Help Groups (SHGs)",
+                "Joint Liability Groups (JLGs)"
+            ],
+            "allied_sectors": [
+                "Inland Fisheries and Aquaculture",
+                "Marine Fisheries",
+                "Poultry",
+                "Dairy"
+            ]
+        },
+        "loan_details": {
+            "validity_period_years": 5,
+            "annual_limit_increase_percentage": 10,
+            "marginal_farmers_flexi_limit": {
+                "min": 10000,
+                "max": 50000
+            },
+            "security_norms": {
+                "no_collateral_limit_standard": 160000,
+                "no_collateral_limit_with_tie_up": 300000,
+                "hypothecation": "Crops up to 1.00 lakh"
+            }
+        },
+        "insurance_coverage": {
+            "mandatory": "Crop Insurance",
+            "personal_accident_insurance_scheme": {
+                "death_benefit": 50000,
+                "permanent_total_disability": 50000,
+                "loss_of_one_limb_or_eye": 25000
+            }
+        },
+        "disbursement_channels": [
+            "ATM / RuPay Debit cards",
+            "Operations through branch/cheque",
+            "Business Correspondents",
+            "PoS terminals (Sugar Mills/Input dealers)",
+            "Mobile based transfer"
+        ],
+        "required_documents": [
+            "Duly filled application form",
+            "Identity proof (Aadhaar, Voter ID, PAN, etc.)",
+            "Address proof"
+        ]
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "केसीसी कार्ड कैसे बनवाएं?",
+        "Hindi Normalized": "किसान क्रेडिट कार्ड कैसे बनवाएं?",
+        "Expert Answer (Hindi)": "किसान क्रेडिट कार्ड (KCC) बनवाने के लिए आप अपने नजदीकी बैंक में आवेदन कर सकते हैं। इसके लिए जमीन के कागज, आधार कार्ड और फोटो की आवश्यकता होती है।",
+        "Expert Answer (Dialect)": "केसीसी बनवाने के लिए बैंक में जाकर जमीन का कागज और आधार देना पड़ता है।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "पीएम किसान योजना का पैसा कब मिलता है?",
+        "Hindi Normalized": "प्रधानमंत्री किसान सम्मान निधि योजना का पैसा कब मिलता है?",
+        "Expert Answer (Hindi)": "पीएम किसान योजना के तहत किसानों को साल में तीन किस्तों में ₹2000-₹2000 की राशि दी जाती है।",
+        "Expert Answer (Dialect)": "पीएम किसान में साल में तीन बार 2000-2000 रुपये मिलते हैं।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "फसल बीमा योजना कैसे काम करती है?",
+        "Hindi Normalized": "प्रधानमंत्री फसल बीमा योजना कैसे काम करती है?",
+        "Expert Answer (Hindi)": "प्रधानमंत्री फसल बीमा योजना में किसान प्रीमियम भरते हैं और फसल नुकसान होने पर उन्हें मुआवजा दिया जाता है।",
+        "Expert Answer (Dialect)": "बीमा में थोड़ा पैसा देकर फसल खराब होने पर सरकार पैसा देती है।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "यूपी में किसान पंजीकरण कैसे कराएं?",
+        "Hindi Normalized": "उत्तर प्रदेश में किसान पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "उत्तर प्रदेश में किसान पंजीकरण के लिए कृषि विभाग की वेबसाइट या जन सेवा केंद्र पर आवेदन किया जा सकता है।",
+        "Expert Answer (Dialect)": "यूपी में किसान रजिस्ट्रेशन जन सेवा केंद्र पर हो जाता है।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "यूपी में फ्री बीज योजना कैसे मिलेगी?",
+        "Hindi Normalized": "उत्तर प्रदेश में मुफ्त बीज योजना का लाभ कैसे लें?",
+        "Expert Answer (Hindi)": "उत्तर प्रदेश में मुफ्त बीज योजना के लिए कृषि विभाग में आवेदन करना होता है या कृषि केंद्र से संपर्क करना होता है।",
+        "Expert Answer (Dialect)": "बीज लेने के लिए कृषि विभाग या केंद्र पर जाना पड़ता है।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "बिहार में किसान रजिस्ट्रेशन कैसे कराई?",
+        "Hindi Normalized": "बिहार में किसान पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "बिहार में किसान पंजीकरण DBT Agriculture पोर्टल पर किया जाता है।",
+        "Expert Answer (Dialect)": "बिहार में किसान रजिस्ट्रेशन ऑनलाइन DBT साइट से होता है।"
+    },
+    {
+        "0": "Government Scheme",
+        "Language": "Hindi",
+        "Dialect Transcript": "बिहार में डीजल अनुदान कैसे मिलता है?",
+        "Hindi Normalized": "बिहार में डीजल अनुदान कैसे प्राप्त करें?",
+        "Expert Answer (Hindi)": "बिहार सरकार किसानों को डीजल पर अनुदान देती है, इसके लिए DBT पोर्टल पर आवेदन करना होता है।",
+        "Expert Answer (Dialect)": "डीजल सब्सिडी के लिए ऑनलाइन फॉर्म भरना पड़ता है।"
+    },
+    {
+        "Dialect Transcript": "एमपी में भावांतर योजना क्या है?",
+        "Hindi Normalized": "मध्य प्रदेश में भावांतर योजना क्या है?",
+        "Expert Answer (Hindi)": "भावांतर योजना के तहत किसानों को बाजार मूल्य और न्यूनतम समर्थन मूल्य के अंतर की भरपाई की जाती है।",
+        "Expert Answer (Dialect)": "भावांतर में बाजार और MSP के फर्क का पैसा मिलता है।"
+    },
+    {
+        "Speaker Age Range": "30-55",
+        "Speaker Gender": "Female",
+        "Crop Type": "General",
+        "Dialect Transcript": "एमपी में किसान कर्ज माफी कैसे मिलती है?",
+        "Hindi Normalized": "मध्य प्रदेश में किसान कर्ज माफी कैसे मिलती है?",
+        "Expert Answer (Hindi)": "मध्य प्रदेश में कर्ज माफी योजना के तहत पात्र किसानों का ऋण सरकार द्वारा माफ किया जाता है, इसके लिए पंजीकरण जरूरी होता है।",
+        "Expert Answer (Dialect)": "कर्ज माफी में सरकार योग्य किसानों का लोन माफ कर देती है।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "PM-Kisan",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "PM किसान का पैसा नहीं आया क्या करें?",
+        "Hindi Normalized": "पीएम किसान का पैसा नहीं आया, क्या करना चाहिए?",
+        "Expert Answer (Hindi)": "आप PM-Kisan पोर्टल पर जाकर अपना स्टेटस जांचें। eKYC, आधार और बैंक खाता सही होना जरूरी है।",
+        "Expert Answer (Dialect)": "पैसा नहीं आया तो पहले ऑनलाइन स्टेटस और आधार-बैंक चेक करें।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "PM-Kisan",
+        "Crop Type": "General",
+        "Dialect Transcript": "PM किसान योजना में कौन लोग आवेदन कर सकते हैं?",
+        "Hindi Normalized": "पीएम किसान योजना के लिए कौन पात्र है?",
+        "Expert Answer (Hindi)": "छोटे और सीमांत किसान जिनके पास कृषि भूमि है, वे इस योजना के लिए पात्र हैं।",
+        "Expert Answer (Dialect)": "जिनके पास खेती की जमीन है वो किसान आवेदन कर सकते हैं।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "KCC",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "KCC कार्ड कैसे बनता है?",
+        "Hindi Normalized": "किसान क्रेडिट कार्ड कैसे बनता है?",
+        "Expert Answer (Hindi)": "आप अपने नजदीकी बैंक में आवेदन कर सकते हैं और जमीन के दस्तावेज, आधार और फोटो जमा करना होता है।",
+        "Expert Answer (Dialect)": "बैंक में जाकर कागज जमा करने से KCC बन जाता है।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "KCC",
+        "Crop Type": "Sugarcane",
+        "Dialect Transcript": "KCC लोन रिजेक्ट हो गया क्यों?",
+        "Hindi Normalized": "किसान क्रेडिट कार्ड लोन अस्वीकृत क्यों हुआ?",
+        "Expert Answer (Hindi)": "दस्तावेज अधूरे होने, खराब क्रेडिट इतिहास या भूमि रिकॉर्ड में समस्या के कारण लोन अस्वीकृत हो सकता है।",
+        "Expert Answer (Dialect)": "कागज पूरे नहीं हों या जमीन का रिकॉर्ड गलत हो तो लोन रिजेक्ट होता है।"
+    },
+    {
+        "intent": "claim_process",
+        "scheme": "PMFBY",
+        "Crop Type": "Soybean",
+        "Dialect Transcript": "फसल बीमा का क्लेम कैसे करें?",
+        "Hindi Normalized": "फसल बीमा योजना में दावा कैसे करें?",
+        "Expert Answer (Hindi)": "फसल नुकसान होने पर 72 घंटे के अंदर बीमा कंपनी या कृषि अधिकारी को सूचना देनी होती है।",
+        "Expert Answer (Dialect)": "फसल खराब हो तो 72 घंटे में सूचना देना जरूरी है।"
+    },
+    {
+        "intent": "state_scheme_query",
+        "scheme": "UP Farmer Registration",
+        "state": "Uttar Pradesh",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "यूपी में किसान रजिस्ट्रेशन कैसे करें?",
+        "Hindi Normalized": "उत्तर प्रदेश में किसान पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "आप कृषि विभाग की वेबसाइट या जन सेवा केंद्र के माध्यम से पंजीकरण कर सकते हैं।",
+        "Expert Answer (Dialect)": "जन सेवा केंद्र से किसान रजिस्ट्रेशन हो जाता है।"
+    },
+    {
+        "intent": "price_support",
+        "scheme": "MP Bhavantar",
+        "state": "Madhya Pradesh",
+        "Crop Type": "Soybean",
+        "Dialect Transcript": "भावांतर योजना क्या है?",
+        "Hindi Normalized": "भावांतर योजना क्या है?",
+        "Expert Answer (Hindi)": "इस योजना में किसानों को बाजार मूल्य और MSP के बीच का अंतर दिया जाता है।",
+        "Expert Answer (Dialect)": "भावांतर में दाम का फर्क सरकार देती है।"
+    },
+    {
+        "intent": "payment_issue",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "PM किसान में पैसा अटका हुआ दिखा रहा है",
+        "Hindi Normalized": "पीएम किसान में पैसा अटका हुआ दिख रहा है, क्या करें?",
+        "Expert Answer (Hindi)": "यदि भुगतान अटका हुआ दिख रहा है तो बैंक खाता, आधार लिंक और eKYC की स्थिति जांचें। आवश्यकता होने पर CSC केंद्र पर सुधार कराएं।",
+        "Expert Answer (Dialect)": "पैसा अटका है तो आधार और बैंक डिटेल सही कराएं।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "KCC",
+        "Crop Type": "Vegetables",
+        "Dialect Transcript": "क्या बटाई पर खेती करने वाला KCC ले सकता है?",
+        "Hindi Normalized": "क्या बटाई पर खेती करने वाला किसान KCC के लिए पात्र है?",
+        "Expert Answer (Hindi)": "कुछ मामलों में बटाईदार किसान भी KCC के लिए पात्र हो सकते हैं, लेकिन इसके लिए स्थानीय बैंक और दस्तावेज़ आवश्यक होते हैं।",
+        "Expert Answer (Dialect)": "बटाई पर खेती करने वाले को भी कुछ जगह KCC मिल सकता है, बैंक से पूछना पड़ेगा।"
+    },
+    {
+        "intent": "interest_query",
+        "scheme": "KCC",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "KCC का ब्याज कितना लगता है अगर समय पर नहीं भरें?",
+        "Hindi Normalized": "यदि KCC का भुगतान समय पर न करें तो ब्याज दर क्या होती है?",
+        "Expert Answer (Hindi)": "समय पर भुगतान न करने पर सामान्य बैंक दर के अनुसार अधिक ब्याज लग सकता है और सब्सिडी का लाभ नहीं मिलता।",
+        "Expert Answer (Dialect)": "समय पर नहीं भरने पर ज्यादा ब्याज लगता है और छूट नहीं मिलती।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "PMFBY",
+        "Crop Type": "Soybean",
+        "Dialect Transcript": "बीमा का क्लेम अभी तक नहीं मिला",
+        "Hindi Normalized": "फसल बीमा का दावा अभी तक नहीं मिला, क्या करें?",
+        "Expert Answer (Hindi)": "आप बीमा कंपनी, कृषि विभाग या पोर्टल पर अपने क्लेम की स्थिति जांचें और आवश्यक दस्तावेज जमा करें।",
+        "Expert Answer (Dialect)": "क्लेम नहीं मिला तो बीमा कंपनी या अधिकारी से संपर्क करें।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "PMFBY",
+        "Crop Type": "Cotton",
+        "Dialect Transcript": "फसल बीमा कब कराना चाहिए?",
+        "Hindi Normalized": "फसल बीमा कब कराना चाहिए?",
+        "Expert Answer (Hindi)": "फसल बीमा बुवाई के समय या निर्धारित अंतिम तिथि से पहले कराना चाहिए।",
+        "Expert Answer (Dialect)": "बीमा बुवाई के समय ही करा लेना चाहिए।"
+    },
+    {
+        "intent": "scheme_query",
+        "scheme": "Soil Health Card",
+        "Crop Type": "General",
+        "Dialect Transcript": "मिट्टी जांच कार्ड कैसे बनता है?",
+        "Hindi Normalized": "मिट्टी स्वास्थ्य कार्ड कैसे बनता है?",
+        "Expert Answer (Hindi)": "आप अपने नजदीकी कृषि केंद्र पर मिट्टी का नमूना देकर मिट्टी स्वास्थ्य कार्ड बनवा सकते हैं।",
+        "Expert Answer (Dialect)": "मिट्टी का सैंपल देकर कार्ड बन जाता है।"
+    },
+    {
+        "intent": "benefit_query",
+        "scheme": "Soil Health Card",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "मिट्टी कार्ड से क्या फायदा होता है?",
+        "Hindi Normalized": "मिट्टी स्वास्थ्य कार्ड के क्या लाभ हैं?",
+        "Expert Answer (Hindi)": "इससे आपको पता चलता है कि कौन सा उर्वरक कितनी मात्रा में देना है जिससे उत्पादन बढ़ता है।",
+        "Expert Answer (Dialect)": "मिट्टी कार्ड से सही खाद डालने का पता चलता है।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "PMFBY",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "क्या सभी किसान फसल बीमा ले सकते हैं?",
+        "Hindi Normalized": "क्या सभी किसान फसल बीमा योजना के लिए पात्र हैं?",
+        "Expert Answer (Hindi)": "जो किसान अधिसूचित फसलों की खेती करते हैं वे इस योजना के लिए पात्र होते हैं।",
+        "Expert Answer (Dialect)": "जिस फसल का बीमा है वही किसान ले सकता है।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "UP Seed Scheme",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "यूपी में बीज योजना के लिए कैसे आवेदन करें?",
+        "Hindi Normalized": "उत्तर प्रदेश में बीज योजना के लिए आवेदन कैसे करें?",
+        "Expert Answer (Hindi)": "कृषि विभाग की वेबसाइट या जन सेवा केंद्र पर आवेदन किया जा सकता है।",
+        "Expert Answer (Dialect)": "जन सेवा केंद्र से बीज योजना का फॉर्म भर सकते हैं।"
+    },
+    {
+        "intent": "subsidy_query",
+        "scheme": "UP Irrigation Subsidy",
+        "Crop Type": "Sugarcane",
+        "Dialect Transcript": "सिंचाई पर सब्सिडी कैसे मिलती है?",
+        "Hindi Normalized": "सिंचाई पर सब्सिडी कैसे प्राप्त करें?",
+        "Expert Answer (Hindi)": "सिंचाई योजना के तहत आवेदन कर कृषि विभाग से सब्सिडी प्राप्त की जा सकती है।",
+        "Expert Answer (Dialect)": "सिंचाई के लिए आवेदन करने पर सब्सिडी मिलती है।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "Bihar Farmer Registration",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "बिहार में किसान रजिस्ट्रेशन कैसे होता है?",
+        "Hindi Normalized": "बिहार में किसान पंजीकरण कैसे होता है?",
+        "Expert Answer (Hindi)": "DBT Agriculture पोर्टल पर ऑनलाइन आवेदन करना होता है।",
+        "Expert Answer (Dialect)": "ऑनलाइन DBT साइट से रजिस्ट्रेशन होता है।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "Bihar Subsidy",
+        "Crop Type": "Maize",
+        "Dialect Transcript": "सब्सिडी का पैसा नहीं आया",
+        "Hindi Normalized": "सब्सिडी का पैसा नहीं आया, क्या करें?",
+        "Expert Answer (Hindi)": "DBT पोर्टल पर आवेदन की स्थिति जांचें और बैंक खाते की जानकारी सही करें।",
+        "Expert Answer (Dialect)": "पैसा नहीं आया तो DBT स्टेटस और बैंक चेक करें।"
+    },
+    {
+        "intent": "price_support",
+        "scheme": "MSP",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "MSP क्या होता है?",
+        "Hindi Normalized": "न्यूनतम समर्थन मूल्य (MSP) क्या होता है?",
+        "Expert Answer (Hindi)": "MSP वह न्यूनतम मूल्य है जिस पर सरकार किसानों से फसल खरीदती है।",
+        "Expert Answer (Dialect)": "सरकार जो न्यूनतम दाम तय करती है उसे MSP कहते हैं।"
+    },
+    {
+        "intent": "advisory",
+        "Crop Type": "Vegetables",
+        "Dialect Transcript": "कौन सी योजना सबसे ज्यादा फायदेमंद है?",
+        "Hindi Normalized": "कौन सी योजना सबसे अधिक लाभकारी है?",
+        "Expert Answer (Hindi)": "यह आपकी आवश्यकता पर निर्भर करता है, लेकिन PM-Kisan, KCC और फसल बीमा सबसे उपयोगी हैं।",
+        "Expert Answer (Dialect)": "PM किसान, KCC और बीमा सबसे काम की योजना हैं।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "PM-Kisan",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "PM किसान की किस्त pending दिखा रही है",
+        "Hindi Normalized": "पीएम किसान की किस्त लंबित दिख रही है, क्या करें?",
+        "Expert Answer (Hindi)": "स्थिति लंबित होने पर eKYC, आधार-बैंक लिंक और भू-रिकॉर्ड की जांच करें। पोर्टल पर स्टेटस देखें या CSC पर सुधार कराएं।",
+        "Expert Answer (Dialect)": "pending है तो eKYC और बैंक-आधार ठीक कराएं।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "PM-Kisan",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "account me paisa aya tha fir wapas chala gaya",
+        "Hindi Normalized": "खाते में पैसा आया था फिर वापस चला गया, क्या कारण है?",
+        "Expert Answer (Hindi)": "यह बैंक खाते में त्रुटि, निष्क्रिय खाता या आधार सीडिंग समस्या के कारण हो सकता है। बैंक से KYC अपडेट कराएं।",
+        "Expert Answer (Dialect)": "बैंक/KYC दिक्कत से पैसा वापस जा सकता है, बैंक में अपडेट कराएं।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "PM-Kisan",
+        "Dialect Transcript": "बिना जमीन के PM किसान मिल सकता है?",
+        "Hindi Normalized": "क्या बिना भूमि के पीएम किसान योजना का लाभ मिल सकता है?",
+        "Expert Answer (Hindi)": "नहीं, इस योजना के लिए कृषि भूमि का स्वामित्व आवश्यक होता है।",
+        "Expert Answer (Dialect)": "बिना जमीन PM किसान नहीं मिलता।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "PM-Kisan",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "PM किसान में नया रजिस्ट्रेशन कैसे करें?",
+        "Hindi Normalized": "पीएम किसान में नया पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "PM-Kisan पोर्टल पर किसान कॉर्नर में जाकर पंजीकरण करें या CSC केंद्र पर आवेदन करें।",
+        "Expert Answer (Dialect)": "ऑनलाइन या CSC से नया रजिस्ट्रेशन हो जाता है।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "KCC",
+        "Crop Type": "Sugarcane",
+        "Dialect Transcript": "KCC limit bahut kam approve hui hai",
+        "Hindi Normalized": "KCC की सीमा बहुत कम स्वीकृत हुई है, क्या करें?",
+        "Expert Answer (Hindi)": "सीमा भूमि क्षेत्र, फसल पैटर्न और बैंक आकलन पर निर्भर करती है। दस्तावेज अपडेट कर पुनर्मूल्यांकन का अनुरोध करें।",
+        "Expert Answer (Dialect)": "limit कम है तो बैंक में दुबारा जांच के लिए आवेदन करें।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "KCC",
+        "Crop Type": "Vegetables",
+        "Dialect Transcript": "KCC ke liye kaun kaun se documents chahiye?",
+        "Hindi Normalized": "KCC के लिए कौन-कौन से दस्तावेज आवश्यक हैं?",
+        "Expert Answer (Hindi)": "आधार, पहचान-पत्र, भूमि दस्तावेज, फोटो और बैंक विवरण आवश्यक होते हैं।",
+        "Expert Answer (Dialect)": "आधार, जमीन के कागज और फोटो चाहिए।"
+    },
+    {
+        "intent": "interest_query",
+        "scheme": "KCC",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "KCC me interest subsidy kaise milti hai?",
+        "Hindi Normalized": "KCC में ब्याज सब्सिडी कैसे मिलती है?",
+        "Expert Answer (Hindi)": "समय पर ऋण चुकाने पर सरकार द्वारा ब्याज में सब्सिडी दी जाती है जिससे प्रभावी दर कम हो जाती है।",
+        "Expert Answer (Dialect)": "समय पर पैसा भरने पर ब्याज में छूट मिलती है।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "PMFBY",
+        "Crop Type": "Cotton",
+        "Dialect Transcript": "बीमा में survey नहीं हुआ, क्लेम कैसे मिलेगा?",
+        "Hindi Normalized": "बीमा में सर्वे नहीं हुआ, दावा कैसे मिलेगा?",
+        "Expert Answer (Hindi)": "तुरंत बीमा कंपनी/कृषि अधिकारी को सूचना दें, आवेदन नंबर और फोटो/साक्ष्य जमा करें ताकि पुनः सर्वे कराया जा सके।",
+        "Expert Answer (Dialect)": "अधिकारी को सूचना देकर दोबारा सर्वे करवाना पड़ेगा।"
+    },
+    {
+        "intent": "claim_process",
+        "scheme": "PMFBY",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "claim ke liye kaun se papers dene hote hain?",
+        "Hindi Normalized": "क्लेम के लिए कौन से दस्तावेज देने होते हैं?",
+        "Expert Answer (Hindi)": "पॉलिसी/रसीद, पहचान-पत्र, बैंक विवरण, फसल नुकसान के प्रमाण और आवेदन विवरण आवश्यक होते हैं।",
+        "Expert Answer (Dialect)": "रसीद, पहचान और नुकसान का सबूत देना पड़ता है।"
+    },
+    {
+        "intent": "scheme_query",
+        "scheme": "Soil Health Card",
+        "Crop Type": "General",
+        "Dialect Transcript": "soil report me NPK ka kya matlab hota hai?",
+        "Hindi Normalized": "मिट्टी रिपोर्ट में NPK का क्या अर्थ होता है?",
+        "Expert Answer (Hindi)": "NPK क्रमशः नाइट्रोजन, फास्फोरस और पोटैशियम को दर्शाता है जो प्रमुख पोषक तत्व हैं।",
+        "Expert Answer (Dialect)": "NPK मतलब नाइट्रोजन, फास्फोरस और पोटैशियम।"
+    },
+    {
+        "intent": "advisory",
+        "scheme": "Soil Health Card",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "soil card ke hisab se khaad kaise dalein?",
+        "Hindi Normalized": "मिट्टी कार्ड के अनुसार उर्वरक कैसे डालें?",
+        "Expert Answer (Hindi)": "रिपोर्ट में सुझाई गई मात्रा और समय के अनुसार संतुलित उर्वरक दें, अधिक/कम से बचें।",
+        "Expert Answer (Dialect)": "रिपोर्ट में जितना लिखा है उतना ही खाद डालें।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "UP Farmer Registration",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "यूपी किसान रजिस्ट्रेशन में OTP नहीं आ रहा",
+        "Hindi Normalized": "उत्तर प्रदेश किसान पंजीकरण में OTP नहीं आ रहा, क्या करें?",
+        "Expert Answer (Hindi)": "मोबाइल नंबर की सही प्रविष्टि जांचें, नेटवर्क बदलें या CSC केंद्र पर सहायता लें।",
+        "Expert Answer (Dialect)": "नंबर चेक करें या जन सेवा केंद्र से करा लें।"
+    },
+    {
+        "intent": "subsidy_query",
+        "scheme": "UP Farm Machinery Subsidy",
+        "state": "Uttar Pradesh",
+        "Crop Type": "General",
+        "Dialect Transcript": "मशीन पर सब्सिडी कैसे मिलती है?",
+        "Hindi Normalized": "कृषि यंत्र पर सब्सिडी कैसे प्राप्त करें?",
+        "Expert Answer (Hindi)": "कृषि विभाग पोर्टल पर आवेदन कर पात्रता अनुसार यंत्रों पर सब्सिडी प्राप्त की जा सकती है।",
+        "Expert Answer (Dialect)": "ऑनलाइन फॉर्म भरकर मशीन पर सब्सिडी मिलती है।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "UP Farm Machinery Subsidy",
+        "state": "Uttar Pradesh",
+        "Crop Type": "General",
+        "Dialect Transcript": "सब्सिडी approve ho gayi par payment nahi aaya",
+        "Hindi Normalized": "सब्सिडी स्वीकृत हो गई है लेकिन भुगतान नहीं आया, क्या करें?",
+        "Expert Answer (Hindi)": "स्वीकृति के बाद भुगतान में समय लग सकता है। पोर्टल पर स्थिति देखें और बैंक विवरण सही रखें।",
+        "Expert Answer (Dialect)": "approve होने के बाद थोड़ा समय लगता है, स्टेटस चेक करते रहें।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "Bihar DBT Registration",
+        "state": "Bihar",
+        "District": "Bihar",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "DBT me registration kaise karein?",
+        "Hindi Normalized": "DBT में पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "DBT Agriculture वेबसाइट पर जाकर आधार और बैंक विवरण के साथ पंजीकरण करें।",
+        "Expert Answer (Dialect)": "DBT साइट पर आधार डालकर रजिस्ट्रेशन कर लें।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "Bihar DBT",
+        "District": "Bihar",
+        "Crop Type": "Maize",
+        "Dialect Transcript": "DBT me application reject ho gaya",
+        "Hindi Normalized": "DBT में आवेदन अस्वीकृत हो गया, क्या करें?",
+        "Expert Answer (Hindi)": "अस्वीकृति का कारण देखें, दस्तावेज सही कर पुनः आवेदन करें या सहायता केंद्र जाएं।",
+        "Expert Answer (Dialect)": "कारण देखकर कागज ठीक कर दोबारा फॉर्म भरें।"
+    },
+    {
+        "intent": "price_support",
+        "scheme": "MSP",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "MSP par bechne ke liye registration kaise kare?",
+        "Hindi Normalized": "MSP पर बिक्री के लिए पंजीकरण कैसे करें?",
+        "Expert Answer (Hindi)": "राज्य के खरीद पोर्टल/केंद्र पर पंजीकरण करें और निर्धारित तिथि पर फसल लेकर जाएं।",
+        "Expert Answer (Dialect)": "सरकारी केंद्र पर रजिस्ट्रेशन कर के MSP पर बेच सकते हैं।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "MSP",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "सरकारी केंद्र पर तौल में दिक्कत आ रही है",
+        "Hindi Normalized": "सरकारी केंद्र पर तौल में समस्या आ रही है, क्या करें?",
+        "Expert Answer (Hindi)": "केंद्र प्रभारी से शिकायत दर्ज करें या जिला कृषि/खाद्य विभाग से संपर्क करें।",
+        "Expert Answer (Dialect)": "समस्या हो तो केंद्र पर शिकायत करें या अधिकारी से मिलें।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "PMFBY",
+        "Crop Type": "Cotton",
+        "Dialect Transcript": "ठेका खेती वाले किसान बीमा ले सकते हैं?",
+        "Hindi Normalized": "क्या ठेका खेती करने वाले किसान फसल बीमा ले सकते हैं?",
+        "Expert Answer (Hindi)": "यह राज्य नियमों पर निर्भर करता है; कई जगह पट्टेदार/ठेका किसान शर्तों के साथ पात्र होते हैं।",
+        "Expert Answer (Dialect)": "कुछ राज्यों में शर्तों के साथ मिल सकता है, जानकारी लें।"
+    },
+    {
+        "intent": "application_process",
+        "scheme": "PMFBY",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "बीमा online kaise kare?",
+        "Hindi Normalized": "फसल बीमा ऑनलाइन कैसे करें?",
+        "Expert Answer (Hindi)": "अधिकृत पोर्टल या बैंक/CSC के माध्यम से पंजीकरण कर प्रीमियम जमा करें।",
+        "Expert Answer (Dialect)": "ऑनलाइन या CSC से बीमा कर सकते हैं।"
+    },
+    {
+        "intent": "scheme_query",
+        "scheme": "General",
+        "Crop Type": "General",
+        "Dialect Transcript": "छोटे किसान के लिए कौन सी योजना सही है?",
+        "Hindi Normalized": "छोटे किसानों के लिए कौन सी योजनाएं उपयुक्त हैं?",
+        "Expert Answer (Hindi)": "PM-Kisan, KCC और PMFBY छोटे किसानों के लिए आय, ऋण और सुरक्षा के लिहाज से उपयोगी हैं।",
+        "Expert Answer (Dialect)": "छोटे किसान के लिए PM किसान, KCC और बीमा अच्छे हैं।"
+    },
+    {
+        "intent": "advisory",
+        "scheme": "General",
+        "District": "General",
+        "Crop Type": "Vegetables",
+        "Dialect Transcript": "किस योजना में जल्दी पैसा मिलता है?",
+        "Hindi Normalized": "किस योजना में जल्दी भुगतान मिलता है?",
+        "Expert Answer (Hindi)": "PM-Kisan में निर्धारित किस्तें समय-समय पर मिलती हैं; अन्य योजनाओं में प्रक्रिया के अनुसार समय लग सकता है।",
+        "Expert Answer (Dialect)": "PM किसान में किस्तें तय समय पर मिलती हैं।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "KCC",
+        "state": "General",
+        "District": "General",
+        "Crop Type": "Wheat",
+        "Dialect Transcript": "KCC card ban gaya par paisa use nahi kar pa rahe",
+        "Hindi Normalized": "KCC कार्ड बन गया है लेकिन राशि उपयोग नहीं कर पा रहे हैं, क्या करें?",
+        "Expert Answer (Hindi)": "बैंक में जाकर खाता/कार्ड सक्रियता, लिमिट और PIN/पासबुक की स्थिति जांचें।",
+        "Expert Answer (Dialect)": "बैंक में जाकर एक्टिवेशन और लिमिट चेक कराएं।"
+    },
+    {
+        "intent": "eligibility",
+        "scheme": "UP Irrigation Subsidy",
+        "state": "Uttar Pradesh",
+        "District": "Uttar Pradesh",
+        "Crop Type": "Sugarcane",
+        "Dialect Transcript": "सिंचाई सब्सिडी के लिए कौन पात्र है?",
+        "Hindi Normalized": "सिंचाई सब्सिडी के लिए कौन पात्र है?",
+        "Expert Answer (Hindi)": "पंजीकृत किसान जो निर्धारित उपकरण/प्रणाली अपनाते हैं, वे पात्र होते हैं; विस्तृत मानदंड राज्य अनुसार बदलते हैं।",
+        "Expert Answer (Dialect)": "रजिस्ट्रेशन वाले किसान को नियम अनुसार सब्सिडी मिलती है।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "Bihar Diesel Subsidy",
+        "District": "Bihar",
+        "Crop Type": "Rice",
+        "Dialect Transcript": "डीजल अनुदान approved hai par paisa nahi aaya",
+        "Hindi Normalized": "डीजल अनुदान स्वीकृत है लेकिन भुगतान नहीं आया, क्या करें?",
+        "Expert Answer (Hindi)": "स्वीकृति के बाद भुगतान में समय लग सकता है; DBT स्थिति देखें और बैंक विवरण सत्यापित करें।",
+        "Expert Answer (Dialect)": "approve के बाद थोड़ा समय लगता है, DBT स्टेटस और बैंक चेक करें।"
+    },
+    {
+        "intent": "helpline_query",
+        "scheme": "Farmer Registry",
+        "District": "Kannauj",
+        "Dialect Transcript": "किसान रजिस्ट्री में तकनीकी समस्या के लिए हेल्पलाइन नंबर क्या है?",
+        "Hindi Normalized": "किसान रजिस्ट्री में तकनीकी समस्या के लिए हेल्पलाइन नंबर क्या है?",
+        "Expert Answer (Hindi)": "किसान रजिस्ट्री में तकनीकी समस्या के लिए आप हेल्पलाइन नंबर 0522-2317003 पर संपर्क कर सकते हैं।",
+        "Expert Answer (Dialect)": "तकनीकी दिक्कत हो तो 0522-2317003 पर फोन करें।"
+    },
+    {
+        "intent": "payment_issue",
+        "scheme": "PM-Kisan",
+        "state": "Uttar Pradesh",
+        "District": "Kannauj",
+        "Crop Type": "General",
+        "Dialect Transcript": "PM किसान सम्मान निधि की किस्त से जुड़ी समस्या कहाँ ठीक होगी?",
+        "Hindi Normalized": "प्रधानमंत्री किसान सम्मान निधि योजना की किस्त से संबंधित समस्या का समाधान कहाँ होगा?",
+        "Expert Answer (Hindi)": "इस समस्या के समाधान के लिए आप जिला कृषि उपनिदेशक कार्यालय के कंप्यूटर विभाग में ऑपरेटर से संपर्क करें।",
+        "Expert Answer (Dialect)": "PM किसान की समस्या के लिए जिला कृषि कार्यालय में ऑपरेटर से मिलें।"
+    },
+    {
+        "intent": "scheme_issue",
+        "scheme": "Farmer Registry",
+        "state": "Uttar Pradesh",
+        "District": "Kannauj",
+        "Crop Type": "General",
+        "Dialect Transcript": "फार्मर रजिस्ट्री में दिक्कत आ रही है, क्या करें?",
+        "Hindi Normalized": "फार्मर रजिस्ट्री में समस्या आ रही है, क्या करना चाहिए?",
+        "Expert Answer (Hindi)": "यदि फार्मर रजिस्ट्री में समस्या आ रही है तो अपने क्षेत्र के लेखपाल से संपर्क करें या विकास खंड के बीज गोदाम प्रभारी कार्यालय में जाएं।",
+        "Expert Answer (Dialect)": "रजिस्ट्री में दिक्कत हो तो लेखपाल या ब्लॉक के बीज गोदाम में संपर्क करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "scheme": "General Agriculture Advisory",
+        "state": "Uttar Pradesh",
+        "District": "Bulandshahar",
+        "Crop Type": "Bottle Gourd",
+        "Category": "Horticulture",
+        "Dialect Transcript": "लौकी की फसल में कौन सा खाद डालें और कितना डालें?",
+        "Hindi Normalized": "लौकी की फसल के लिए कौन सा उर्वरक और कितनी मात्रा में उपयोग करें?",
+        "Expert Answer (Hindi)": "लौकी की फसल के लिए खेत की तैयारी से पहले 8-10 टन प्रति एकड़ अच्छी तरह सड़ा हुआ गोबर खाद डालें। इसके साथ नाइट्रोजन 32 किलो (यूरिया 70 किलो), फास्फोरस 24 किलो (SSP 150 किलो) और पोटाश 24 किलो (MOP 40 किलो) प्रति एकड़ दें। गोबर खाद, पूरी फास्फोरस और पोटाश तथा नाइट्रोजन की एक-तिहाई मात्रा बुवाई से 3-4 सप्ताह पहले डालें। शेष नाइट्रोजन को दो भागों में विभाजित करें और 25-30 दिन तथा 40-50 दिन बाद डालें।",
+        "Expert Answer (Dialect)": "लौकी में पहले गोबर की खाद 8-10 टन डालें। साथ में यूरिया, SSP और पोटाश दें। नाइट्रोजन को थोड़ा-थोड़ा करके 25-30 दिन और 40-50 दिन बाद डालें।"
+    },
+    {
+        "intent": "helpline_query",
+        "state": "Uttar Pradesh",
+        "questions": [
+            "पशु विभाग का टोल फ्री नंबर क्या है?",
+            "पशुओं के लिए हेल्पलाइन नंबर क्या है?",
+            "animal department helpline number kya hai?"
+        ],
+        "answer": "पशु या पशु से संबंधित किसी भी जानकारी के लिए आप टोल फ्री नंबर 18001805141 पर संपर्क कर सकते हैं।"
+    },
+    {
+        "intent": "kyc_update",
+        "state": "Uttar Pradesh",
+        "questions": [
+            "PM किसान में e-KYC कैसे करें?",
+            "PM किसान eKYC update kaise kare?",
+            "e-KYC नहीं किया तो क्या होगा PM किसान में?",
+            "PM किसान KYC update process kya hai?"
+        ],
+        "answer": "PM किसान योजना में e-KYC अनिवार्य है। आप OTP आधारित e-KYC PM किसान पोर्टल पर कर सकते हैं या बायोमेट्रिक e-KYC के लिए निकटतम जन सेवा केंद्र (CSC) पर जाएं। अधिक जानकारी के लिए ब्लॉक स्तर पर राजकीय बीज गोदाम या जिला कृषि कार्यालय से संपर्क करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Mango",
+        "state": "Uttar Pradesh",
+        "question": "आम के पेड़ में हूपर का नियंत्रण कैसे करें?",
+        "answer": "हूपर नियंत्रण के लिए Thiamethoxam 12.6% + Lambda cyhalothrin 9.5% ZC की 0.5 मिली मात्रा प्रति लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "variety_information",
+        "crop": "Moong",
+        "state": "Uttar Pradesh",
+        "question": "मूंग की उन्नत किस्में कौन-कौन सी हैं?",
+        "answer": "मूंग की प्रमुख किस्में हैं: मालवीय जाग्रति, ज्योति, मूंग जनप्रिया, मेहा 99-125, पूसा विशाल, HUM-16, मालवीय जन चेतना। अप्रैल बुवाई के लिए सम्राट, मेहा, HUM-16 और पंत मूंग-2 उपयुक्त हैं।"
+    },
+    {
+        "intent": "advisory_contact",
+        "crop": "Teak (Sagoan)",
+        "state": "Uttar Pradesh",
+        "question": "सागवान के पेड़ की कटाई के लिए क्या करना चाहिए?",
+        "answer": "सागवान की कटाई संबंधी जानकारी के लिए अपने ब्लॉक के राजकीय बीज गोदाम प्रभारी या कृषि विभाग से संपर्क करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Cucumber",
+        "state": "Uttar Pradesh",
+        "question": "खीरा की फसल में सूक्ष्म पोषक तत्व कितनी मात्रा में दें?",
+        "answer": "खीरा की फसल में सूक्ष्म पोषक तत्व 3-4 ग्राम प्रति लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "subsidy_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "ट्रैक्टर सब्सिडी योजना की जानकारी कैसे मिलेगी?",
+        "answer": "ट्रैक्टर सब्सिडी योजना की जानकारी के लिए कृषि अधिकारी (MAO) से संपर्क करें: 7288894226।"
+    },
+    {
+        "intent": "helpline_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "किसान रजिस्ट्री में समस्या हो तो क्या करें?",
+        "answer": "किसान रजिस्ट्री में समस्या होने पर हेल्पलाइन नंबर 0522-2317003 पर संपर्क करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Maize",
+        "state": "Uttar Pradesh",
+        "question": "मक्का में पत्ती खाने वाले कीट का नियंत्रण कैसे करें?",
+        "answer": "नियंत्रण के लिए Chlorpyrifos 50% + Cypermethrin 5% EC की 2 मिली प्रति लीटर पानी में घोल बनाकर छिड़काव करें।"
+    },
+    {
+        "intent": "sowing_time",
+        "crop": "Maize",
+        "state": "Uttar Pradesh",
+        "question": "मक्का की बुवाई का सही समय क्या है?",
+        "answer": "मक्का की बुवाई का उपयुक्त समय 1 फरवरी से 20 फरवरी तक होता है।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Moong",
+        "state": "Uttar Pradesh",
+        "question": "मूंग की फसल में पत्ती खाने वाले कीट का नियंत्रण कैसे करें?",
+        "answer": "नियंत्रण के लिए Emamectin benzoate 5% SG की 100 ग्राम मात्रा प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Maize",
+        "state": "Uttar Pradesh",
+        "question": "मक्का की फसल में उर्वरक की सही मात्रा क्या है?",
+        "answer": "मक्का के लिए 80:40:40 किग्रा/हेक्टेयर नत्रजन, फास्फोरस और पोटाश दें। बुवाई के समय नत्रजन की आधी तथा फास्फोरस और पोटाश की पूरी मात्रा दें। शेष नत्रजन बुवाई के 30 दिन बाद दें।"
+    },
+    {
+        "intent": "sowing_time",
+        "crop": "Maize",
+        "state": "Uttar Pradesh",
+        "question": "खरीफ मौसम में मक्का की बुवाई का सही समय क्या है?",
+        "answer": "देर से पकने वाली मक्का की बुवाई मध्य मई से मध्य जून तक करें। शीघ्र पकने वाली किस्मों की बुवाई जून के अंत तक और वर्षा आधारित बुवाई 10 जुलाई तक कर लें।"
+    },
+    {
+        "intent": "yield_improvement",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान की अच्छी पैदावार के लिए क्या करें?",
+        "answer": "अच्छी पैदावार के लिए मिट्टी परीक्षण कराकर पोषक तत्वों और pH का पता लगाएं। उसी अनुसार उर्वरक दें। उच्च गुणवत्ता वाले प्रमाणित बीज का उपयोग करें और बुवाई से पहले बीज उपचार अवश्य करें।"
+    },
+    {
+        "intent": "soil_treatment",
+        "crop": "Banana",
+        "state": "Uttar Pradesh",
+        "question": "केला की फसल में मिट्टी का उपचार कैसे करें?",
+        "answer": "भूमि उपचार के लिए ट्राइकोडर्मा 1–1.5 किग्रा प्रति एकड़ को 60–70 किग्रा गोबर की खाद में मिलाकर 5–7 दिन बाद अंतिम जुताई के समय खेत में मिला दें।"
+    },
+    {
+        "intent": "nutrient_deficiency_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान की नर्सरी में पत्तियां पीली होने पर क्या करें?",
+        "answer": "नियंत्रण के लिए 200 ग्राम यूरिया, 75 ग्राम मोनोजिंक और 80 ग्राम फेरस सल्फेट को 16 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "cultural_practice",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान के साथ ढैंचा की बुवाई कैसे करें?",
+        "answer": "धान की रोपाई के साथ ढैंचा की बुवाई 10 किग्रा प्रति एकड़ बीज दर से करें। 25–30 दिन बाद इसे खेत में मिलाकर हरी खाद के रूप में उपयोग करें।"
+    },
+    {
+        "intent": "yield_improvement",
+        "crop": "Ivy Gourd",
+        "state": "Uttar Pradesh",
+        "question": "कुंदरू की फसल में उत्पादन कैसे बढ़ाएं?",
+        "answer": "उत्पादन बढ़ाने के लिए सागरिका 250 मिली प्रति एकड़ को 125 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "subsidy_process",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "कृषि यंत्र पर सब्सिडी लेने के लिए क्या प्रक्रिया है?",
+        "answer": "कृषि यंत्र लेने से पहले विभाग की वेबसाइट पर टोकन जनरेट करना होता है। इसके बाद टोकन शुल्क बैंक में जमा करें और जिला कृषि उपनिदेशक कार्यालय से संपर्क करें।"
+    },
+    {
+        "intent": "loan_scheme_query",
+        "crop": "Animal Husbandry",
+        "state": "Uttar Pradesh",
+        "question": "पशुपालन के लिए लोन और योजना की जानकारी कहाँ मिलेगी?",
+        "answer": "पशुपालन से संबंधित लोन और योजनाओं की जानकारी के लिए जिला पशुपालन विभाग से संपर्क करें या हेल्पलाइन नंबर 1800-180-5141 पर कॉल करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान की फसल में टॉप ड्रेसिंग के लिए कौन सा उर्वरक और कितनी मात्रा दें?",
+        "answer": "प्रति एकड़ 45 किग्रा यूरिया, 10 किग्रा सागरिका दानेदार, 5 किग्रा जिंक सल्फेट, 5 किग्रा माईकोराइजा और 500 ग्राम ह्यूमिक एसिड (90%) का प्रयोग करें।"
+    },
+    {
+        "intent": "spacing_advisory",
+        "crop": "Poplar",
+        "state": "Uttar Pradesh",
+        "question": "पॉपलर के पौधों की रोपाई की दूरी कितनी रखनी चाहिए?",
+        "answer": "पॉपलर रोपण के लिए 5x5 मीटर दूरी पर लगभग 182 पौधे प्रति एकड़ लगाए जा सकते हैं। 5x4 मीटर या 6x2 मीटर दूरी पर लगभग 396 पौधे प्रति एकड़ और 5x2 मीटर दूरी पर लगभग 476 पौधे प्रति एकड़ लगाए जा सकते हैं।"
+    },
+    {
+        "intent": "status_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM किसान सम्मान निधि का स्टेटस कैसे चेक करें?",
+        "answer": "PM किसान योजना की जानकारी और स्टेटस के लिए ब्लॉक के कृषि अधिकारी या जिला कृषि कार्यालय से संपर्क करें या हेल्पलाइन नंबर 18001801488, 155261, 18001155266, 011-23381092 पर कॉल करें।"
+    },
+    {
+        "intent": "helpline_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "एग्रोफोरेस्ट्री रिसर्च झांसी का हेल्पलाइन नंबर क्या है?",
+        "answer": "एग्रोफोरेस्ट्री रिसर्च, झांसी के लिए संपर्क नंबर 0510-2792282 है।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं की फसल में पोषक तत्व कैसे दें?",
+        "answer": "गेहूं की फसल में NPK 19:19:19 एक किलोग्राम और सागरिका 250 मिली प्रति एकड़ को 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "complaint_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "कृषि विभाग की दुकान के खिलाफ शिकायत कैसे करें?",
+        "answer": "शिकायत दर्ज करने के लिए अपने ब्लॉक कृषि कार्यालय या जिला कृषि अधिकारी से संपर्क करें और लिखित या ऑनलाइन शिकायत दर्ज करें।"
+    },
+    {
+        "intent": "scheme_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM किसान सम्मान निधि योजना की जानकारी कहाँ मिलेगी?",
+        "answer": "PM किसान योजना की जानकारी के लिए अपने ब्लॉक के नोडल अधिकारी या कृषि विभाग से संपर्क करें।"
+    },
+    {
+        "intent": "seed_treatment",
+        "crop": "Urad",
+        "state": "Uttar Pradesh",
+        "question": "उड़द के बीज का उपचार कैसे करें?",
+        "answer": "उड़द के बीज को कार्बेन्डाजिम 50% WP की 2 ग्राम प्रति किलोग्राम बीज की दर से उपचारित करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने की फसल में बढ़वार की समस्या होने पर क्या करें?",
+        "answer": "गन्ने में 40 किग्रा यूरिया और 10 किग्रा माइक्रोन्यूट्रिएंट्स प्रति एकड़ की दर से डालें।"
+    },
+    {
+        "intent": "planting_time",
+        "crop": "Guava",
+        "state": "Uttar Pradesh",
+        "question": "अमरूद के पौधे लगाने का सही समय क्या है?",
+        "answer": "अमरूद की रोपाई के लिए फरवरी–मार्च या जुलाई–सितंबर का समय उपयुक्त होता है।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Neem",
+        "state": "Uttar Pradesh",
+        "question": "नीम के पौधे में फंगल रोग का नियंत्रण कैसे करें?",
+        "answer": "कॉपर ऑक्सीक्लोराइड 50% WP की 2 ग्राम प्रति लीटर पानी में घोल बनाकर छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Mango",
+        "state": "Uttar Pradesh",
+        "question": "आम में लीफ हॉपर का नियंत्रण कैसे करें?",
+        "answer": "प्रोफेनोफोस 50% EC 2 मिली/लीटर + इमिडाक्लोप्रिड 17.8% SL 0.5 मिली/लीटर पानी में मिलाकर छिड़काव करें।"
+    },
+    {
+        "intent": "kyc_update",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM किसान में e-KYC कैसे करें?",
+        "answer": "PM किसान पोर्टल पर OTP आधारित e-KYC करें या बायोमेट्रिक e-KYC के लिए नजदीकी CSC केंद्र पर जाएं।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Barseem",
+        "state": "Uttar Pradesh",
+        "question": "बरसीम में कीट नियंत्रण कैसे करें?",
+        "answer": "नीम का तेल 3 मिली प्रति लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Guava",
+        "state": "Uttar Pradesh",
+        "question": "अमरूद में निमेटोड से बचाव कैसे करें?",
+        "answer": "कार्बोफ्यूरान 3G की 250 ग्राम मात्रा प्रति पौधा दो बार मिट्टी में मिलाकर सिंचाई करें।"
+    },
+    {
+        "intent": "complaint_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "KCC आवेदन नहीं बन रहा है तो क्या करें?",
+        "answer": "बैंक की मुख्य शाखा में शिकायत करें या CM हेल्पलाइन 1076 पर कॉल करें।"
+    },
+    {
+        "intent": "loan_query",
+        "crop": "Animal Husbandry",
+        "state": "Uttar Pradesh",
+        "question": "पशुपालन लोन की जानकारी कहाँ मिलेगी?",
+        "answer": "पशुपालन लोन की जानकारी के लिए बैंक से संपर्क करें और अपनी सिविल स्थिति की जांच कराएं।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने में कीट नियंत्रण कैसे करें?",
+        "answer": "कार्टाप हाइड्रोक्लोराइड 4% GR 8–10 किग्रा प्रति एकड़ की दर से प्रयोग करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने में टॉप बोरर का नियंत्रण कैसे करें?",
+        "answer": "Thiamethoxam 1% + Chlorantraniliprole 0.5% GR 4 किग्रा प्रति एकड़ बालू या यूरिया के साथ मिलाकर नमी में डालें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने में शूट बोरर का नियंत्रण कैसे करें?",
+        "answer": "कार्टाप हाइड्रोक्लोराइड 50% SP 500 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें या 4G 10 किग्रा प्रति एकड़ प्रयोग करें।"
+    },
+    {
+        "intent": "weed_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में खरपतवार नियंत्रण कैसे करें?",
+        "answer": "प्रीटिलाक्लोर 37% EC का 600 मिली प्रति एकड़ 200 लीटर पानी में घोलकर 72 घंटे के अंदर छिड़काव करें।"
+    },
+    {
+        "intent": "helpline_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "जंगली जानवर के लिए हेल्पलाइन नंबर क्या है?",
+        "answer": "वन विभाग के टोल फ्री नंबर 1800119334 पर संपर्क करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Water Chestnut",
+        "state": "Uttar Pradesh",
+        "question": "सिंघाड़ा की फसल में वृद्धि के लिए क्या दें?",
+        "answer": "NPK 19:19:19, 1.5 किग्रा और सागरिका 250 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Eucalyptus",
+        "state": "Uttar Pradesh",
+        "question": "यूक्लिप्टस में दीमक का नियंत्रण कैसे करें?",
+        "answer": "क्लोरपाइरीफॉस 20% EC 1 लीटर प्रति एकड़ सिंचाई के समय नाली में दें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Mango",
+        "state": "Uttar Pradesh",
+        "question": "आम में फंगल रोग का नियंत्रण कैसे करें?",
+        "answer": "कॉपर ऑक्सीक्लोराइड 50% WP 2 ग्राम प्रति लीटर पानी में घोलकर छिड़काव और जड़ों में ड्रेंचिंग करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने में लाल सड़न रोग का नियंत्रण कैसे करें?",
+        "answer": "कॉपर ऑक्सीक्लोराइड 50% WP 400–500 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में रोग नियंत्रण कैसे करें?",
+        "answer": "कार्बेन्डाजिम 12% + मैंकोजेब 63% WP 500 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में निमेटोड और जड़ कीट का नियंत्रण कैसे करें?",
+        "answer": "कार्बोफ्यूरान 3G 8–10 किग्रा प्रति एकड़ खेत में डालकर सिंचाई करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में तना बेधक का नियंत्रण कैसे करें?",
+        "answer": "कार्टाप हाइड्रोक्लोराइड 50% SP 500 ग्राम प्रति एकड़ 200 लीटर पानी में छिड़काव करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में शीथ ब्लाइट का नियंत्रण कैसे करें?",
+        "answer": "प्रोपिकोनाज़ोल 25% EC 250 मिली प्रति एकड़ 200 लीटर पानी में छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में गांधी कीट का नियंत्रण कैसे करें?",
+        "answer": "इमिडाक्लोप्रिड 17.8% SL 100 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Chilli",
+        "state": "Uttar Pradesh",
+        "question": "मिर्च की फसल में ब्लाइट रोग का नियंत्रण कैसे करें?",
+        "answer": "कॉपर ऑक्सीक्लोराइड 50% WP की 500 ग्राम मात्रा प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "payment_issue",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM किसान की किस्त नहीं मिली तो क्या करें?",
+        "answer": "किस्त नहीं मिलने पर अपने ब्लॉक के नोडल अधिकारी या कृषि विभाग से संपर्क करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Poplar",
+        "state": "Uttar Pradesh",
+        "question": "पॉपलर में जलभराव से जड़ और तना सड़न का नियंत्रण कैसे करें?",
+        "answer": "कार्बेन्डाजिम 50% WP 400–500 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें और जल निकासी सुधारें।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Barseem",
+        "state": "Uttar Pradesh",
+        "question": "बरसीम में पोषक तत्व प्रबंधन कैसे करें?",
+        "answer": "5 ग्राम यूरिया और 5 ग्राम जिंक सल्फेट प्रति लीटर पानी में घोलकर 15–15 दिन के अंतराल पर 2–3 छिड़काव करें।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं की फसल में पोषक तत्व प्रबंधन कैसे करें?",
+        "answer": "प्रति एकड़ 35 किग्रा यूरिया, 10 किग्रा सागरिका और 3 किग्रा सल्फर नमी की अवस्था में टॉप ड्रेसिंग के रूप में दें।"
+    },
+    {
+        "intent": "kyc_update",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM किसान में मोबाइल नंबर कैसे बदलें?",
+        "answer": "मोबाइल नंबर बदलने के लिए नजदीकी जन सेवा केंद्र (CSC) पर जाएं या PM किसान पोर्टल पर मोबाइल अपडेट सेवा का उपयोग करें।"
+    },
+    {
+        "intent": "variety_information",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं की पछेती (लेट) बुवाई के लिए कौन सी किस्में अच्छी हैं?",
+        "answer": "पछेती बुवाई के लिए DBW-14, HUW-234, HP-1744, HD-2824, HD-2643, HW-2045, PBW-373, PBW-502, Raj-3077 और Raj-3765 उपयुक्त हैं।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Potato",
+        "state": "Uttar Pradesh",
+        "question": "आलू की फसल में पहली टॉप ड्रेसिंग में कौन सा उर्वरक दें?",
+        "answer": "मिट्टी चढ़ाते समय 60 किग्रा यूरिया, 10 किग्रा सागरिका और 10 किग्रा माइक्रोन्यूट्रिएंट प्रति एकड़ की दर से प्रयोग करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Mustard",
+        "state": "Uttar Pradesh",
+        "question": "सरसों की फसल में पहली सिंचाई के साथ कौन सा उर्वरक दें?",
+        "answer": "पहली सिंचाई के समय 10 किलोग्राम यूरिया प्रति बीघा की दर से प्रयोग करें।"
+    },
+    {
+        "intent": "seed_rate",
+        "crop": "Pumpkin",
+        "state": "Uttar Pradesh",
+        "question": "कद्दू की फसल के लिए बीज दर कितनी होनी चाहिए?",
+        "answer": "कद्दू के लिए 1.5–2 किलोग्राम बीज प्रति एकड़ की दर से प्रयोग करें।"
+    },
+    {
+        "intent": "variety_information",
+        "crop": "Pumpkin",
+        "state": "Uttar Pradesh",
+        "question": "कद्दू की अच्छी किस्में कौन-कौन सी हैं?",
+        "answer": "पूसा हाइब्रिड-1, अर्का चंदन, अर्का विश्वास, अर्का सूर्यमुखी और चकोर प्रमुख किस्में हैं।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Potato",
+        "state": "Uttar Pradesh",
+        "question": "आलू में बैक्टीरियल सॉफ्ट रॉट का नियंत्रण कैसे करें?",
+        "answer": "कॉपर ऑक्सीक्लोराइड 50% WP 400 ग्राम और स्ट्रेप्टोमाइसिन सल्फेट 90% + टेट्रासाइक्लिन 10% 10 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Potato",
+        "state": "Uttar Pradesh",
+        "question": "आलू की फसल में NPK 19:19:19 की मात्रा कितनी दें?",
+        "answer": "NPK 19:19:19 1–1.5 किग्रा और सागरिका 250 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Potato",
+        "state": "Uttar Pradesh",
+        "question": "आलू की फसल में पोषक तत्व प्रबंधन कैसे करें?",
+        "answer": "आलू की फसल में लियोसिन 50 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "loan_waiver_info",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "KCC कर्ज माफी के बारे में क्या जानकारी है?",
+        "answer": "किसानों की कर्ज माफी के लिए सरकार द्वारा समय-समय पर योजनाएं चलाई जाती हैं। अधिक जानकारी और पात्रता के लिए अपने संबंधित बैंक शाखा से संपर्क करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Mango",
+        "state": "Uttar Pradesh",
+        "question": "आम में फूल झड़ने से कैसे बचाएं?",
+        "answer": "अल्फा नेफ्थिल एसिटिक एसिड 4.5% SL की 1 मिली मात्रा 3 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Lemon",
+        "state": "Uttar Pradesh",
+        "question": "नींबू के पौधे में कीट नियंत्रण कैसे करें?",
+        "answer": "इमिडाक्लोप्रिड 17.8% SL की 0.5 मिली प्रति लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "scheme_query",
+        "crop": "General",
+        "state": "Uttar Pradesh",
+        "question": "PM-कुसुम सोलर पंप योजना की जानकारी कैसे मिलेगी?",
+        "answer": "PM-कुसुम योजना की जानकारी के लिए अपने जिले के कृषि विभाग या उप कृषि निदेशक कार्यालय से संपर्क करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Tomato",
+        "state": "Uttar Pradesh",
+        "question": "टमाटर में लीफ कर्ल रोग का नियंत्रण कैसे करें?",
+        "answer": "इमिडाक्लोप्रिड 17.8% SL 100 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Sugarcane",
+        "state": "Uttar Pradesh",
+        "question": "गन्ने में पहली टॉप ड्रेसिंग में कौन सा उर्वरक दें?",
+        "answer": "30 किग्रा यूरिया, 5 किग्रा जिंक सल्फेट 33% और 10 किग्रा सागरिका प्रति एकड़ की दर से प्रयोग करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Brinjal",
+        "state": "Uttar Pradesh",
+        "question": "बैंगन में कीट नियंत्रण कैसे करें?",
+        "answer": "क्यूनालफोस 25% EC की 400 मिली मात्रा प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "variety_information",
+        "crop": "Maize",
+        "state": "Uttar Pradesh",
+        "question": "मक्का की अच्छी संकर किस्में कौन-कौन सी हैं?",
+        "answer": "गंगा-11, सरताज, पूसा संकर मक्का-5, प्रो-316 (4640) और प्रकाश जैसी किस्में अच्छी मानी जाती हैं।"
+    },
+    {
+        "intent": "plant_availability",
+        "crop": "Sandalwood",
+        "state": "Uttar Pradesh",
+        "question": "चंदन के पौधे कहाँ से मिल सकते हैं?",
+        "answer": "चंदन के पौधे के लिए CIMAP, लखनऊ (फोन: 0522-2719083) या वन विभाग कार्यालय से संपर्क करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में माहू (एफिड) का नियंत्रण कैसे करें?",
+        "answer": "इमिडाक्लोप्रिड 17.8% SL 100 मिली प्रति एकड़ 150 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में तना बेधक का नियंत्रण कैसे करें?",
+        "answer": "कार्टाप हाइड्रोक्लोराइड 50% SP 400 ग्राम प्रति एकड़ 150–200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "cultural_practice",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में सरसों की खली का उपयोग कब करें?",
+        "answer": "सरसों की खली का प्रयोग धान की रोपाई से पहले खेत की तैयारी के समय करें।"
+    },
+    {
+        "intent": "weed_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में मोथा खरपतवार का नियंत्रण कैसे करें?",
+        "answer": "Ethoxysulfuron 15 WDG की 50 ग्राम मात्रा प्रति एकड़ 250 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में उर्वरक प्रबंधन कैसे करें?",
+        "answer": "एक बोतल नैनो DAP और एक बोतल सागरिका प्रति एकड़ 200 लीटर पानी में घोलकर नमी की अवस्था में छिड़काव करें।"
+    },
+    {
+        "intent": "pest_control",
+        "crop": "Paddy",
+        "state": "Uttar Pradesh",
+        "question": "धान में तना बेधक के लिए कौन सी दवा उपयोग करें?",
+        "answer": "बिफेन्थ्रिन 10% EC 200 मिली प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "seed_treatment",
+        "crop": "Mustard",
+        "state": "Uttar Pradesh",
+        "question": "सरसों के बीज का उपचार नैनो DAP से कैसे करें?",
+        "answer": "नैनो DAP 3–5 मिली प्रति किलोग्राम बीज की दर से बीज उपचार करें।"
+    },
+    {
+        "intent": "weed_control",
+        "crop": "Potato",
+        "state": "Uttar Pradesh",
+        "question": "आलू में खरपतवार नियंत्रण कैसे करें?",
+        "answer": "मैट्रिब्यूजिन 70% WP 120–150 ग्राम प्रति एकड़ 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "crop_stage_info",
+        "crop": "Mustard",
+        "state": "Uttar Pradesh",
+        "question": "सरसों का अंकुरण कितने दिन में होता है?",
+        "answer": "सरसों का अंकुरण सामान्यतः बुवाई के 5–7 दिन में हो जाता है।"
+    },
+    {
+        "intent": "seed_rate",
+        "crop": "Peas",
+        "state": "Uttar Pradesh",
+        "question": "मटर की फसल के लिए बीज दर कितनी होनी चाहिए?",
+        "answer": "लंबी किस्मों के लिए 80–100 किग्रा/हेक्टेयर और बोनी किस्मों के लिए 125 किग्रा/हेक्टेयर बीज दर रखें।"
+    },
+    {
+        "intent": "variety_information",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं की अच्छी किस्में कौन-कौन सी हैं?",
+        "answer": "DBW-187, DBW-222, DBW-303, DDW-47, UP-2338, PBW-343, HD-2967, DBW-39, DBW-17, UP-2382, K-402, K-607 और श्रीराम सुपर-303 प्रमुख किस्में हैं।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं में नैनो DAP का उपयोग कैसे करें?",
+        "answer": "नैनो DAP 250–500 मिली प्रति एकड़ 35–40 दिन की अवस्था में 200 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "sowing_time",
+        "crop": "Garlic",
+        "state": "Uttar Pradesh",
+        "question": "लहसुन की बुवाई का सही समय क्या है?",
+        "answer": "लहसुन की बुवाई का उपयुक्त समय 15 अक्टूबर से 15 नवम्बर तक होता है।"
+    },
+    {
+        "intent": "nutrient_deficiency_control",
+        "crop": "Cucumber",
+        "state": "Uttar Pradesh",
+        "question": "खीरे की पुरानी पत्तियां पीली होने पर क्या करें?",
+        "answer": "8 ग्राम यूरिया प्रति लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "disease_control",
+        "crop": "Mustard",
+        "state": "Uttar Pradesh",
+        "question": "सरसों में मुरझा रोग का नियंत्रण कैसे करें?",
+        "answer": "कार्बेन्डाजिम 50% WP 400 ग्राम प्रति एकड़ 170 लीटर पानी में घोलकर छिड़काव करें।"
+    },
+    {
+        "intent": "fertilizer_advisory",
+        "crop": "Mustard",
+        "state": "Uttar Pradesh",
+        "question": "सरसों में उर्वरक की सही मात्रा क्या है?",
+        "answer": "यूरिया 30 किग्रा, DAP 50 किग्रा, म्यूरेट ऑफ पोटाश 27 किग्रा और सल्फर 8 किग्रा प्रति एकड़ बुवाई के समय दें।"
+    },
+    {
+        "intent": "nutrient_management",
+        "crop": "Wheat",
+        "state": "Uttar Pradesh",
+        "question": "गेहूं में पोषक तत्व प्रबंधन कैसे करें?",
+        "answer": "नैनो DAP 250–500 मिली प्रति एकड़ 35–40 दिन की अवस्था में 200 लीटर पानी में घोलकर छिड़काव करें।"
+    }
+]

@@ -18,7 +18,7 @@ def convert_audio_to_text(audio_bytes: bytes) -> str:
     try:
         with sr.AudioFile(tmp_wav_path) as source:
             audio_data = recognizer.record(source)
-            text = recognizer.recognize_google(audio_data)
+            text = recognizer.recognize_google(audio_data, language="hi-IN")
     except sr.UnknownValueError:
         print("Error processing audio: No speech was detected (or the audio was empty).")
     except sr.RequestError as e:

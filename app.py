@@ -21,14 +21,19 @@ for message in st.session_state["message_history"]:
     with st.chat_message(message["role"]):
         st.text(message["content"])
 
-# Add the audio recorder at the bottom before chat input
+if "is_processing" not in st.session_state:
+    st.session_state.is_processing = False
+
+# Add the audio recorder at the bottom before chat input (Hide if processing)
 st.markdown("---")
-# Centering the mic logic so the component iframe doesn't stretch and turn white
 col1, col2 = st.columns([1, 15])
 with col1:
-    audio_bytes = audio_recorder(text="", icon_size="2x")
+    if not st.session_state.is_processing:
+        audio_bytes = audio_recorder(text="", icon_size="2x")
+    else:
+        audio_bytes = None
 
-user_input = st.chat_input("Ask about your document or use tools")
+user_input = st.chat_input("Ask about your document or use tools", disabled=st.session_state.is_processing)
 
 if "last_audio_bytes" not in st.session_state:
     st.session_state["last_audio_bytes"] = None
@@ -41,10 +46,18 @@ if audio_bytes and audio_bytes != st.session_state["last_audio_bytes"]:
 
 final_input = user_input or processed_audio_text
 
-if final_input:
+if final_input and not st.session_state.is_processing:
+    st.session_state.is_processing = True
     st.session_state["message_history"].append({"role": "user", "content": final_input})
+    st.rerun()
+
+# If we are processing, render the new user message, generate the response, then unlock.
+if st.session_state.is_processing:
+    # Get the latest message (which is the user's input)
+    latest_user_msg = st.session_state["message_history"][-1]["content"]
+    
     with st.chat_message("user"):
-        st.text(final_input)
+        st.text(latest_user_msg)
 
     with st.chat_message("assistant"):
         def ai_only_stream():
@@ -76,23 +89,24 @@ if final_input:
     )
 
     # Autoplay AI voice if the user used the microphone
-    if processed_audio_text:
+    if st.session_state["last_audio_bytes"] is not None and user_input is None:
         audio_path = convert_text_to_audio(ai_message)
         if audio_path and os.path.exists(audio_path):
             with open(audio_path, "rb") as f:
                 data = f.read()
                 b64 = base64.b64encode(data).decode()
-                # Create an invisible autoplay audio element
                 md = f"""
                     <audio autoplay="true">
                     <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
                     </audio>
                     """
                 st.markdown(md, unsafe_allow_html=True)
-            # Cleanup temp mp3
             try:
                 os.remove(audio_path)
             except Exception:
                 pass
+
+    st.session_state.is_processing = False
+    st.rerun()
 
 st.divider()
