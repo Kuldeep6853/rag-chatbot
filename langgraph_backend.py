@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import os
-import tempfile
-from typing import Annotated, Any, Dict, Optional, TypedDict
+from typing import Annotated, TypedDict
 
 from dotenv import load_dotenv
 import json
@@ -36,7 +35,7 @@ embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 # -------------------
-# 2. PDF retriever store (Global)
+# 2. JSON retriever store (Global)
 # -------------------
 GLOBAL_RETRIEVER = None
 GLOBAL_METADATA = {}
@@ -127,14 +126,15 @@ def chat_node(state: ChatState, config=None):
     """LLM node that may answer or request a tool call."""
     system_message = SystemMessage(
         content=(
-            "You are a strict, closed-domain customer support assistant. "
+            "You are a strict, closed-domain agricultural customer support assistant. "
             "Your ONLY source of knowledge is the data retrieved from the `rag_tool`. "
             "You MUST absolutely refuse to answer any questions outside of the document context. "
-            "If the information to answer the user's question is NOT found in the data returned by `rag_tool`, "
-            "you MUST reply ONLY with: 'not found relevent data contact to admin'. Do not try to answer using your own knowledge. "
+            "WARNING: Even if you know the answer to a general knowledge question (e.g. 'what is the capital of Delhi', 'who is the president', etc.), you MUST refuse to answer it unless the answer is explicitly written in the retrieved document context. "
+            "If the exact information to answer the user's question is NOT found in the data returned by `rag_tool`, "
+            "you MUST reply ONLY with exactly: 'not found relevent data contact to admin'. Do not add any other words or try to answer using your own knowledge. "
             "CRITICAL WARNING: You must formulate your ENTIRE final response strictly in the EXACT SAME language that the user used to ask their question! "
             "IMPORTANT POLICY: If the user's query is related to crop diseases, prevention, or medicine/pesticides, you MUST always append a disclaimer at the end of your response advising them to consult an expert. You MUST translate this disclaimer into the EXACT SAME language as the user's query (e.g., if the user asks in Hindi, the disclaimer MUST be in Hindi, such as 'नोट: उपयोग करने से पहले, कृपया किसी कृषि विशेषज्ञ से पूछ लें।'). The English version of this disclaimer is: 'Note: Before use, please ask any agricultural expert'."
-        ) 
+        )
     )
 
     messages = [system_message, *state["messages"]]
