@@ -51,13 +51,8 @@ if final_input and not st.session_state.is_processing:
     st.session_state["message_history"].append({"role": "user", "content": final_input})
     st.rerun()
 
-# If we are processing, render the new user message, generate the response, then unlock.
+# If we are processing, generate the response, then unlock.
 if st.session_state.is_processing:
-    # Get the latest message (which is the user's input)
-    latest_user_msg = st.session_state["message_history"][-1]["content"]
-    
-    with st.chat_message("user"):
-        st.text(latest_user_msg)
 
     with st.chat_message("assistant"):
         def ai_only_stream():

@@ -132,8 +132,9 @@ def chat_node(state: ChatState, config=None):
             "You MUST absolutely refuse to answer any questions outside of the document context. "
             "If the information to answer the user's question is NOT found in the data returned by `rag_tool`, "
             "you MUST reply ONLY with: 'not found relevent data contact to admin'. Do not try to answer using your own knowledge. "
-            "CRITICAL WARNING: You must formulate your ENTIRE final response strictly in the EXACT SAME language that the user used to ask their question!"
-        )
+            "CRITICAL WARNING: You must formulate your ENTIRE final response strictly in the EXACT SAME language that the user used to ask their question! "
+            "IMPORTANT POLICY: If the user's query is related to crop diseases, prevention, or medicine/pesticides, you MUST always append a disclaimer at the end of your response advising them to consult an expert. You MUST translate this disclaimer into the EXACT SAME language as the user's query (e.g., if the user asks in Hindi, the disclaimer MUST be in Hindi, such as 'नोट: उपयोग करने से पहले, कृपया किसी कृषि विशेषज्ञ से पूछ लें।'). The English version of this disclaimer is: 'Note: Before use, please ask any agricultural expert'."
+        ) 
     )
 
     messages = [system_message, *state["messages"]]
