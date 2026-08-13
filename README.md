@@ -1,5 +1,7 @@
 # LangGraph Agricultural Chatbot
 
+![image alt](https://github.com/Kuldeep6853/rag-chatbot/blob/main/Screenshot%202026-08-14%20012052.png)
+
 This project is a multilingual, voice-enabled AI support system designed for the agricultural sector. 
 
 ## Key Highlights (PPT Points)
