@@ -4,7 +4,7 @@
 
 This project is a multilingual, voice-enabled AI support system designed for the agricultural sector. 
 
-## Key Highlights (PPT Points)
+## Key Highlights
 
 1. **Voice-Enabled Multilingual Support:** Features integrated Speech-to-Text (STT) and Text-to-Speech (TTS) capabilities using Google Speech Recognition and gTTS, heavily optimized for Hindi and other regional languages.
 2. **Advanced Agentic Architecture:** Built using LangGraph to manage complex conversation flows and tool execution via a structured state graph, providing reliable and predictable agent behavior.
